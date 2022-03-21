@@ -43,4 +43,4 @@ jobs:
         run: bash ./script.sh
         
       # Delete file2.txt
-      - uses: rm file2.txt
+      - uses: rm ./file2.txt
